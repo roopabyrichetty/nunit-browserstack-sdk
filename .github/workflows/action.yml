@@ -23,15 +23,22 @@ jobs:
       - name: 'Checkout the repository'
         uses: actions/checkout@v2
 
-      - name: 'Building web application to be tested'
-        run: npm install
+      - name: 'Set up .NET Core'
+        run: actions/setup-dotnet@v2
+        with:
+          dotnet-version: '5.0'
+        
+      - name: Restore dependencies
+        run: dotnet restore
 
-      - name: 'Running application under test'
-        run: ./node_modules/.bin/http-server -p 8099 &
+      - name: Build
+        run: dotnet build
 
-      - name: 'Running test on BrowserStack'  # Invokes the actual test script that would run on BrowserStack browsers
-        run: node index.js  # See sample test script above
-
+      - name: Run NUnit tests on BrowserStack
+        run: |
+          dotnet test NUnit-BrowserStack/bin/Debug/net6.0/SingleTest.dll 
+      
+      
       - name: 'BrowserStackLocal Stop'  # Terminating the BrowserStackLocal tunnel connection
         uses: browserstack/github-actions/setup-local@master
         with:
