@@ -25,9 +25,7 @@ jobs:
 
       - name: 'Set up .NET Core'
         run: actions/setup-dotnet@v2
-        with:
-          dotnet-version: '5.0'
-        
+                
       - name: Restore dependencies
         run: dotnet restore
 
