@@ -24,9 +24,9 @@ jobs:
         uses: actions/checkout@v2
 
       - name: 'Set up .NET Core'
-        uses: actions/setup-dotnet@v2
+        run: actions/setup-dotnet@v2
         with:
-          dotnet-version: '6.0'
+          dotnet-version: '5.0'
         
       - name: Restore dependencies
         run: dotnet restore
