@@ -1,0 +1,678 @@
+2023-08-09 21:59:20.2957|INFO|A.b|Setting up adapter
+2023-08-09 21:59:20.3076|INFO|BStack.VisualStudio.TestAdapter.BStackTestExecutor|NUnit test stated from test explorer
+2023-08-09 21:59:20.3076|INFO|A.b|Invoking browserstack-sdk with args: --skip-build-browserstack "C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\SingleTest.dll" --filter ""(FullyQualifiedName=BrowserStack.SampleLocalTest.BStackTunnelCheck|FullyQualifiedName=BrowserStack.SampleTest.SearchBstackDemo)""
+2023-08-09 22:00:12.6916|INFO|A.b|Exec: dotnet browserstack-sdk --skip-build-browserstack "C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\SingleTest.dll" --filter ""(FullyQualifiedName=BrowserStack.SampleLocalTest.BStackTunnelCheck|FullyQualifiedName=BrowserStack.SampleTest.SearchBstackDemo)""
+2023-08-09 22:00:12.6916|INFO|A.b|0 : 
+2023-08-09 21:59:22.4192|INFO|browserstack_sdk.Program|Detected Selenium version 4.7.0
+2023-08-09 21:59:22.5851|INFO|browserstack_sdk.Program|Detected dotnet version 7.0.203
+2023-08-09 21:59:24.3127|INFO|browserstack_sdk.Program|Starting local
+2023-08-09 21:59:28.9108|INFO|browserstack_sdk.Program|Local started
+2023-08-09 21:59:56.3209|INFO|browserstack_sdk.Program|
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\NUnit-BrowserStack>echo "running bat file" 
+"running bat file"
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\NUnit-BrowserStack>cd C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\NUnit-BrowserStack 
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\NUnit-BrowserStack>dotnet test "C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\SingleTest.dll" --filter "(FullyQualifiedName=BrowserStack.SampleLocalTest.BStackTunnelCheck|FullyQualifiedName=BrowserStack.SampleTest.SearchBstackDemo)" --no-build  "--logger:trx;LogFileName=C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack\results_dotnet\result_0\NUnit-Browserstack.xml" 
+The following arguments have been ignored : "--no-build"
+Microsoft (R) Test Execution Command Line Tool Version 17.5.0 (x64)
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+Failed to load extensions from file 'C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+  Failed BStackTunnelCheck [13 s]
+  Error Message:
+     Expected: String containing "BrowserStack Local"
+  But was:  "Page not found"
+
+  Stack Trace:
+     at BrowserStack.SampleLocalTest.BStackTunnelCheck(SampleLocalTest this)
+
+1)    at BrowserStack.SampleLocalTest.BStackTunnelCheck_Patch2(SampleLocalTest this)
+
+
+Results File: C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack\results_dotnet\result_0\NUnit-Browserstack.xml
+
+Failed!  - Failed:     1, Passed:     1, Skipped:     0, Total:     2, Duration: 25 s - SingleTest.dll (net6.0)
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\NUnit-BrowserStack>echo "completed bat file" 
+"completed bat file"
+
+2023-08-09 21:59:58.5105|INFO|browserstack_sdk.Program|
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\NUnit-BrowserStack>echo "running bat file" 
+"running bat file"
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\NUnit-BrowserStack>cd C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\NUnit-BrowserStack 
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\NUnit-BrowserStack>dotnet test "C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\SingleTest.dll" --filter "(FullyQualifiedName=BrowserStack.SampleLocalTest.BStackTunnelCheck|FullyQualifiedName=BrowserStack.SampleTest.SearchBstackDemo)" --no-build  "--logger:trx;LogFileName=C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack\results_dotnet\result_1\NUnit-Browserstack.xml" 
+The following arguments have been ignored : "--no-build"
+Microsoft (R) Test Execution Command Line Tool Version 17.5.0 (x64)
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+Failed to load extensions from file 'C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+  Failed BStackTunnelCheck [16 s]
+  Error Message:
+     Expected: String containing "BrowserStack Local"
+  But was:  "Page not found"
+
+  Stack Trace:
+     at BrowserStack.SampleLocalTest.BStackTunnelCheck(SampleLocalTest this)
+
+1)    at BrowserStack.SampleLocalTest.BStackTunnelCheck_Patch2(SampleLocalTest this)
+
+
+Results File: C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack\results_dotnet\result_1\NUnit-Browserstack.xml
+
+Failed!  - Failed:     1, Passed:     1, Skipped:     0, Total:     2, Duration: 27 s - SingleTest.dll (net6.0)
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\NUnit-BrowserStack>echo "completed bat file" 
+"completed bat file"
+
+2023-08-09 22:00:10.2103|INFO|browserstack_sdk.Program|
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\NUnit-BrowserStack>echo "running bat file" 
+"running bat file"
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\NUnit-BrowserStack>cd C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\NUnit-BrowserStack 
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\NUnit-BrowserStack>dotnet test "C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\SingleTest.dll" --filter "(FullyQualifiedName=BrowserStack.SampleLocalTest.BStackTunnelCheck|FullyQualifiedName=BrowserStack.SampleTest.SearchBstackDemo)" --no-build  "--logger:trx;LogFileName=C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack\results_dotnet\result_2\NUnit-Browserstack.xml" 
+The following arguments have been ignored : "--no-build"
+Microsoft (R) Test Execution Command Line Tool Version 17.5.0 (x64)
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+Failed to load extensions from file 'C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+  Failed BStackTunnelCheck [20 s]
+  Error Message:
+     Expected: String containing "BrowserStack Local"
+  But was:  "Page not found"
+
+  Stack Trace:
+     at BrowserStack.SampleLocalTest.BStackTunnelCheck(SampleLocalTest this)
+
+1)    at BrowserStack.SampleLocalTest.BStackTunnelCheck_Patch2(SampleLocalTest this)
+
+
+Results File: C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack\results_dotnet\result_2\NUnit-Browserstack.xml
+
+Failed!  - Failed:     1, Passed:     1, Skipped:     0, Total:     2, Duration: 39 s - SingleTest.dll (net6.0)
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\NUnit-BrowserStack>echo "completed bat file" 
+"completed bat file"
+
+2023-08-09 22:00:10.2103|INFO|browserstack_sdk.Program|Stopping local
+2023-08-09 22:00:12.5376|INFO|browserstack_sdk.utils|View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/6fca820fddb4d421a8e20cf6a367a2e447ad56b2
+
+
+2023-08-09 22:00:12.6916|INFO|A.b|Cleaning up adapter
+2023-08-09 22:00:12.6916|INFO|A.b|Getting results from: C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack
+2023-08-09 23:24:52.3192|INFO|A.b|Setting up adapter
+2023-08-09 23:24:52.3375|INFO|BStack.VisualStudio.TestAdapter.BStackTestExecutor|NUnit test stated from test explorer
+2023-08-09 23:24:52.3375|INFO|A.b|Invoking browserstack-sdk with args: --skip-build-browserstack "C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\SingleTest.dll" --filter ""(FullyQualifiedName=BrowserStack.SampleLocalTest.BStackTunnelCheck|FullyQualifiedName=BrowserStack.SampleTest.SearchBstackDemo)""
+2023-08-09 23:26:16.2319|INFO|A.b|Exec: dotnet browserstack-sdk --skip-build-browserstack "C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\SingleTest.dll" --filter ""(FullyQualifiedName=BrowserStack.SampleLocalTest.BStackTunnelCheck|FullyQualifiedName=BrowserStack.SampleTest.SearchBstackDemo)""
+2023-08-09 23:26:16.2319|INFO|A.b|0 : 
+2023-08-09 23:24:54.8104|INFO|browserstack_sdk.Program|Detected Selenium version 4.7.0
+2023-08-09 23:24:54.9882|INFO|browserstack_sdk.Program|Detected dotnet version 7.0.203
+2023-08-09 23:24:56.8146|INFO|browserstack_sdk.Program|Starting local
+2023-08-09 23:25:01.1768|INFO|browserstack_sdk.Program|Local started
+2023-08-09 23:25:42.1401|INFO|browserstack_sdk.Program|
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>echo "running bat file" 
+"running bat file"
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>cd C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack 
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>dotnet test "C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\SingleTest.dll" --filter "(FullyQualifiedName=BrowserStack.SampleLocalTest.BStackTunnelCheck|FullyQualifiedName=BrowserStack.SampleTest.SearchBstackDemo)" --no-build  "--logger:trx;LogFileName=C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack\results_dotnet\result_0\NUnit-Browserstack.xml" 
+The following arguments have been ignored : "--no-build"
+Microsoft (R) Test Execution Command Line Tool Version 17.5.0 (x64)
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+Failed to load extensions from file 'C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+  Failed BStackTunnelCheck [12 s]
+  Error Message:
+     Expected: String containing "BrowserStack Local"
+  But was:  "Page not found"
+
+  Stack Trace:
+     at BrowserStack.SampleLocalTest.BStackTunnelCheck(SampleLocalTest this)
+
+1)    at BrowserStack.SampleLocalTest.BStackTunnelCheck_Patch2(SampleLocalTest this)
+
+
+Results File: C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack\results_dotnet\result_0\NUnit-Browserstack.xml
+
+Failed!  - Failed:     1, Passed:     1, Skipped:     0, Total:     2, Duration: 38 s - SingleTest.dll (net6.0)
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>echo "completed bat file" 
+"completed bat file"
+
+2023-08-09 23:25:50.7136|INFO|browserstack_sdk.Program|
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>echo "running bat file" 
+"running bat file"
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>cd C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack 
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>dotnet test "C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\SingleTest.dll" --filter "(FullyQualifiedName=BrowserStack.SampleLocalTest.BStackTunnelCheck|FullyQualifiedName=BrowserStack.SampleTest.SearchBstackDemo)" --no-build  "--logger:trx;LogFileName=C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack\results_dotnet\result_1\NUnit-Browserstack.xml" 
+The following arguments have been ignored : "--no-build"
+Microsoft (R) Test Execution Command Line Tool Version 17.5.0 (x64)
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+Failed to load extensions from file 'C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+  Failed BStackTunnelCheck [11 s]
+  Error Message:
+     Expected: String containing "BrowserStack Local"
+  But was:  "Page not found"
+
+  Stack Trace:
+     at BrowserStack.SampleLocalTest.BStackTunnelCheck(SampleLocalTest this)
+
+1)    at BrowserStack.SampleLocalTest.BStackTunnelCheck_Patch2(SampleLocalTest this)
+
+
+Results File: C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack\results_dotnet\result_1\NUnit-Browserstack.xml
+
+Failed!  - Failed:     1, Passed:     1, Skipped:     0, Total:     2, Duration: 47 s - SingleTest.dll (net6.0)
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>echo "completed bat file" 
+"completed bat file"
+
+2023-08-09 23:26:13.7710|INFO|browserstack_sdk.Program|
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>echo "running bat file" 
+"running bat file"
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>cd C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack 
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>dotnet test "C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\SingleTest.dll" --filter "(FullyQualifiedName=BrowserStack.SampleLocalTest.BStackTunnelCheck|FullyQualifiedName=BrowserStack.SampleTest.SearchBstackDemo)" --no-build  "--logger:trx;LogFileName=C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack\results_dotnet\result_2\NUnit-Browserstack.xml" 
+The following arguments have been ignored : "--no-build"
+Microsoft (R) Test Execution Command Line Tool Version 17.5.0 (x64)
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+Failed to load extensions from file 'C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+  Failed BStackTunnelCheck [20 s]
+  Error Message:
+     Expected: String containing "BrowserStack Local"
+  But was:  "Page not found"
+
+  Stack Trace:
+     at BrowserStack.SampleLocalTest.BStackTunnelCheck(SampleLocalTest this)
+
+1)    at BrowserStack.SampleLocalTest.BStackTunnelCheck_Patch2(SampleLocalTest this)
+
+
+Results File: C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack\results_dotnet\result_2\NUnit-Browserstack.xml
+
+Failed!  - Failed:     1, Passed:     1, Skipped:     0, Total:     2, Duration: 1 m 10 s - SingleTest.dll (net6.0)
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>echo "completed bat file" 
+"completed bat file"
+
+2023-08-09 23:26:13.7710|INFO|browserstack_sdk.Program|Stopping local
+2023-08-09 23:26:16.0836|INFO|browserstack_sdk.utils|View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/1e50a70c2644f31b67ace7537131f1a33bfe4830
+
+
+2023-08-09 23:26:16.2319|INFO|A.b|Cleaning up adapter
+2023-08-09 23:26:16.2319|INFO|A.b|Getting results from: C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack
+2023-08-10 00:45:18.0825|INFO|A.b|Setting up adapter
+2023-08-10 00:45:18.0965|INFO|BStack.VisualStudio.TestAdapter.BStackTestExecutor|NUnit test stated from test explorer
+2023-08-10 00:45:18.0965|INFO|A.b|Invoking browserstack-sdk with args: --skip-build-browserstack "C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\SingleTest.dll" --filter ""(FullyQualifiedName=BrowserStack.SampleLocalTest.BStackTunnelCheck|FullyQualifiedName=BrowserStack.SampleTest.SearchBstackDemo)""
+2023-08-10 00:46:07.5295|INFO|A.b|Exec: dotnet browserstack-sdk --skip-build-browserstack "C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\SingleTest.dll" --filter ""(FullyQualifiedName=BrowserStack.SampleLocalTest.BStackTunnelCheck|FullyQualifiedName=BrowserStack.SampleTest.SearchBstackDemo)""
+2023-08-10 00:46:07.5295|INFO|A.b|0 : 
+2023-08-10 00:45:20.3117|INFO|browserstack_sdk.Program|Detected Selenium version 4.7.0
+2023-08-10 00:45:20.4788|INFO|browserstack_sdk.Program|Detected dotnet version 7.0.203
+2023-08-10 00:45:22.4866|INFO|browserstack_sdk.Program|Starting local
+2023-08-10 00:45:26.7536|INFO|browserstack_sdk.Program|Local started
+2023-08-10 00:45:52.7342|INFO|browserstack_sdk.Program|
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>echo "running bat file" 
+"running bat file"
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>cd C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack 
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>dotnet test "C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\SingleTest.dll" --filter "(FullyQualifiedName=BrowserStack.SampleLocalTest.BStackTunnelCheck|FullyQualifiedName=BrowserStack.SampleTest.SearchBstackDemo)" --no-build  "--logger:trx;LogFileName=C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack\results_dotnet\result_1\NUnit-Browserstack.xml" 
+The following arguments have been ignored : "--no-build"
+Microsoft (R) Test Execution Command Line Tool Version 17.5.0 (x64)
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+Failed to load extensions from file 'C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+  Failed SearchBstackDemo [10 s]
+  Error Message:
+     Expected string length 32 but was 52. Strings differ at index 32.
+  Expected: "Home | Bentley | Infrastructure "
+  But was:  "Home | Bentley | Infrastructure Engineering Software"
+  -------------------------------------------^
+
+  Stack Trace:
+     at BrowserStack.SampleTest.SearchBstackDemo(SampleTest this)
+
+1)    at BrowserStack.SampleTest.SearchBstackDemo_Patch2(SampleTest this)
+
+
+Results File: C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack\results_dotnet\result_1\NUnit-Browserstack.xml
+
+Failed!  - Failed:     1, Passed:     1, Skipped:     0, Total:     2, Duration: 24 s - SingleTest.dll (net6.0)
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>echo "completed bat file" 
+"completed bat file"
+
+2023-08-10 00:45:54.8965|INFO|browserstack_sdk.Program|
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>echo "running bat file" 
+"running bat file"
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>cd C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack 
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>dotnet test "C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\SingleTest.dll" --filter "(FullyQualifiedName=BrowserStack.SampleLocalTest.BStackTunnelCheck|FullyQualifiedName=BrowserStack.SampleTest.SearchBstackDemo)" --no-build  "--logger:trx;LogFileName=C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack\results_dotnet\result_0\NUnit-Browserstack.xml" 
+The following arguments have been ignored : "--no-build"
+Microsoft (R) Test Execution Command Line Tool Version 17.5.0 (x64)
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+Failed to load extensions from file 'C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+  Failed SearchBstackDemo [10 s]
+  Error Message:
+     Expected string length 32 but was 52. Strings differ at index 32.
+  Expected: "Home | Bentley | Infrastructure "
+  But was:  "Home | Bentley | Infrastructure Engineering Software"
+  -------------------------------------------^
+
+  Stack Trace:
+     at BrowserStack.SampleTest.SearchBstackDemo(SampleTest this)
+
+1)    at BrowserStack.SampleTest.SearchBstackDemo_Patch2(SampleTest this)
+
+
+Results File: C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack\results_dotnet\result_0\NUnit-Browserstack.xml
+
+Failed!  - Failed:     1, Passed:     1, Skipped:     0, Total:     2, Duration: 26 s - SingleTest.dll (net6.0)
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>echo "completed bat file" 
+"completed bat file"
+
+2023-08-10 00:46:05.0660|INFO|browserstack_sdk.Program|
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>echo "running bat file" 
+"running bat file"
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>cd C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack 
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>dotnet test "C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\SingleTest.dll" --filter "(FullyQualifiedName=BrowserStack.SampleLocalTest.BStackTunnelCheck|FullyQualifiedName=BrowserStack.SampleTest.SearchBstackDemo)" --no-build  "--logger:trx;LogFileName=C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack\results_dotnet\result_2\NUnit-Browserstack.xml" 
+The following arguments have been ignored : "--no-build"
+Microsoft (R) Test Execution Command Line Tool Version 17.5.0 (x64)
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+Failed to load extensions from file 'C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+  Failed SearchBstackDemo [19 s]
+  Error Message:
+     Expected string length 32 but was 52. Strings differ at index 32.
+  Expected: "Home | Bentley | Infrastructure "
+  But was:  "Home | Bentley | Infrastructure Engineering Software"
+  -------------------------------------------^
+
+  Stack Trace:
+     at BrowserStack.SampleTest.SearchBstackDemo(SampleTest this)
+
+1)    at BrowserStack.SampleTest.SearchBstackDemo_Patch2(SampleTest this)
+
+
+Results File: C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack\results_dotnet\result_2\NUnit-Browserstack.xml
+
+Failed!  - Failed:     1, Passed:     1, Skipped:     0, Total:     2, Duration: 36 s - SingleTest.dll (net6.0)
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>echo "completed bat file" 
+"completed bat file"
+
+2023-08-10 00:46:05.0660|INFO|browserstack_sdk.Program|Stopping local
+2023-08-10 00:46:07.3859|INFO|browserstack_sdk.utils|View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/7ce3c0f8e28c3adbd8b10f5e5f6f3243d5dfc7e4
+
+
+2023-08-10 00:46:07.5295|INFO|A.b|Cleaning up adapter
+2023-08-10 00:46:07.5295|INFO|A.b|Getting results from: C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack
+2023-08-10 00:47:17.3083|INFO|A.b|Setting up adapter
+2023-08-10 00:47:17.3275|INFO|BStack.VisualStudio.TestAdapter.BStackTestExecutor|NUnit test stated from test explorer
+2023-08-10 00:47:17.3275|INFO|A.b|Invoking browserstack-sdk with args: --skip-build-browserstack "C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\SingleTest.dll" --filter ""(FullyQualifiedName=BrowserStack.SampleLocalTest.BStackTunnelCheck|FullyQualifiedName=BrowserStack.SampleTest.SearchBstackDemo)""
+2023-08-10 00:48:01.7804|INFO|A.b|Exec: dotnet browserstack-sdk --skip-build-browserstack "C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\SingleTest.dll" --filter ""(FullyQualifiedName=BrowserStack.SampleLocalTest.BStackTunnelCheck|FullyQualifiedName=BrowserStack.SampleTest.SearchBstackDemo)""
+2023-08-10 00:48:01.7804|INFO|A.b|0 : 
+2023-08-10 00:47:19.5705|INFO|browserstack_sdk.Program|Detected Selenium version 4.7.0
+2023-08-10 00:47:19.7491|INFO|browserstack_sdk.Program|Detected dotnet version 7.0.203
+2023-08-10 00:47:21.3146|INFO|browserstack_sdk.Program|Starting local
+2023-08-10 00:47:24.9935|INFO|browserstack_sdk.Program|Local started
+2023-08-10 00:47:50.4755|INFO|browserstack_sdk.Program|
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>echo "running bat file" 
+"running bat file"
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>cd C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack 
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>dotnet test "C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\SingleTest.dll" --filter "(FullyQualifiedName=BrowserStack.SampleLocalTest.BStackTunnelCheck|FullyQualifiedName=BrowserStack.SampleTest.SearchBstackDemo)" --no-build  "--logger:trx;LogFileName=C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack\results_dotnet\result_0\NUnit-Browserstack.xml" 
+The following arguments have been ignored : "--no-build"
+Microsoft (R) Test Execution Command Line Tool Version 17.5.0 (x64)
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+Failed to load extensions from file 'C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+Results File: C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack\results_dotnet\result_0\NUnit-Browserstack.xml
+
+Passed!  - Failed:     0, Passed:     2, Skipped:     0, Total:     2, Duration: 23 s - SingleTest.dll (net6.0)
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>echo "completed bat file" 
+"completed bat file"
+
+2023-08-10 00:47:58.9934|INFO|browserstack_sdk.Program|
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>echo "running bat file" 
+"running bat file"
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>cd C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack 
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>dotnet test "C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\SingleTest.dll" --filter "(FullyQualifiedName=BrowserStack.SampleLocalTest.BStackTunnelCheck|FullyQualifiedName=BrowserStack.SampleTest.SearchBstackDemo)" --no-build  "--logger:trx;LogFileName=C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack\results_dotnet\result_1\NUnit-Browserstack.xml" 
+The following arguments have been ignored : "--no-build"
+Microsoft (R) Test Execution Command Line Tool Version 17.5.0 (x64)
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+Failed to load extensions from file 'C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+Results File: C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack\results_dotnet\result_1\NUnit-Browserstack.xml
+
+Passed!  - Failed:     0, Passed:     2, Skipped:     0, Total:     2, Duration: 32 s - SingleTest.dll (net6.0)
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>echo "completed bat file" 
+"completed bat file"
+
+2023-08-10 00:47:59.2997|INFO|browserstack_sdk.Program|
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>echo "running bat file" 
+"running bat file"
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>cd C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack 
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>dotnet test "C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\SingleTest.dll" --filter "(FullyQualifiedName=BrowserStack.SampleLocalTest.BStackTunnelCheck|FullyQualifiedName=BrowserStack.SampleTest.SearchBstackDemo)" --no-build  "--logger:trx;LogFileName=C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack\results_dotnet\result_2\NUnit-Browserstack.xml" 
+The following arguments have been ignored : "--no-build"
+Microsoft (R) Test Execution Command Line Tool Version 17.5.0 (x64)
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+Failed to load extensions from file 'C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+Results File: C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack\results_dotnet\result_2\NUnit-Browserstack.xml
+
+Passed!  - Failed:     0, Passed:     2, Skipped:     0, Total:     2, Duration: 32 s - SingleTest.dll (net6.0)
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>echo "completed bat file" 
+"completed bat file"
+
+2023-08-10 00:47:59.2997|INFO|browserstack_sdk.Program|Stopping local
+2023-08-10 00:48:01.6330|INFO|browserstack_sdk.utils|View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/d14746acb6d9f54b9a8762daf8a31b3e4acd124e
+
+
+2023-08-10 00:48:01.7804|INFO|A.b|Cleaning up adapter
+2023-08-10 00:48:01.7832|INFO|A.b|Getting results from: C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack
+2023-08-10 00:54:42.7734|INFO|A.b|Setting up adapter
+2023-08-10 00:54:42.7870|INFO|BStack.VisualStudio.TestAdapter.BStackTestExecutor|NUnit test stated from test explorer
+2023-08-10 00:54:42.7870|INFO|A.b|Invoking browserstack-sdk with args: --skip-build-browserstack "C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\SingleTest.dll" --filter ""(FullyQualifiedName=BrowserStack.SampleTest.SearchBstackDemo)""
+2023-08-10 00:55:12.1186|INFO|A.b|Exec: dotnet browserstack-sdk --skip-build-browserstack "C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\SingleTest.dll" --filter ""(FullyQualifiedName=BrowserStack.SampleTest.SearchBstackDemo)""
+2023-08-10 00:55:12.1186|INFO|A.b|0 : 
+2023-08-10 00:54:44.9120|INFO|browserstack_sdk.Program|Detected Selenium version 4.7.0
+2023-08-10 00:54:45.0769|INFO|browserstack_sdk.Program|Detected dotnet version 7.0.203
+2023-08-10 00:54:46.7986|INFO|browserstack_sdk.Program|Starting local
+2023-08-10 00:54:50.6035|INFO|browserstack_sdk.Program|Local started
+2023-08-10 00:55:03.2049|INFO|browserstack_sdk.Program|
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>echo "running bat file" 
+"running bat file"
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>cd C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack 
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>dotnet test "C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\SingleTest.dll" --filter "(FullyQualifiedName=BrowserStack.SampleTest.SearchBstackDemo)" --no-build  "--logger:trx;LogFileName=C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack\results_dotnet\result_0\NUnit-Browserstack.xml" 
+The following arguments have been ignored : "--no-build"
+Microsoft (R) Test Execution Command Line Tool Version 17.5.0 (x64)
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+Failed to load extensions from file 'C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+Results File: C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack\results_dotnet\result_0\NUnit-Browserstack.xml
+
+Passed!  - Failed:     0, Passed:     1, Skipped:     0, Total:     1, Duration: 10 s - SingleTest.dll (net6.0)
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>echo "completed bat file" 
+"completed bat file"
+
+2023-08-10 00:55:04.7070|INFO|browserstack_sdk.Program|
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>echo "running bat file" 
+"running bat file"
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>cd C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack 
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>dotnet test "C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\SingleTest.dll" --filter "(FullyQualifiedName=BrowserStack.SampleTest.SearchBstackDemo)" --no-build  "--logger:trx;LogFileName=C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack\results_dotnet\result_1\NUnit-Browserstack.xml" 
+The following arguments have been ignored : "--no-build"
+Microsoft (R) Test Execution Command Line Tool Version 17.5.0 (x64)
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+Failed to load extensions from file 'C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+Results File: C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack\results_dotnet\result_1\NUnit-Browserstack.xml
+
+Passed!  - Failed:     0, Passed:     1, Skipped:     0, Total:     1, Duration: 12 s - SingleTest.dll (net6.0)
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>echo "completed bat file" 
+"completed bat file"
+
+2023-08-10 00:55:09.4476|INFO|browserstack_sdk.Program|
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>echo "running bat file" 
+"running bat file"
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>cd C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack 
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>dotnet test "C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\SingleTest.dll" --filter "(FullyQualifiedName=BrowserStack.SampleTest.SearchBstackDemo)" --no-build  "--logger:trx;LogFileName=C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack\results_dotnet\result_2\NUnit-Browserstack.xml" 
+The following arguments have been ignored : "--no-build"
+Microsoft (R) Test Execution Command Line Tool Version 17.5.0 (x64)
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+Failed to load extensions from file 'C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+Results File: C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack\results_dotnet\result_2\NUnit-Browserstack.xml
+
+Passed!  - Failed:     0, Passed:     1, Skipped:     0, Total:     1, Duration: 16 s - SingleTest.dll (net6.0)
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>echo "completed bat file" 
+"completed bat file"
+
+2023-08-10 00:55:09.4476|INFO|browserstack_sdk.Program|Stopping local
+2023-08-10 00:55:11.9406|INFO|browserstack_sdk.utils|View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/1dc1b2477f6904e1e5afe0b7f454b3ded8c0680b
+
+
+2023-08-10 00:55:12.1186|INFO|A.b|Cleaning up adapter
+2023-08-10 00:55:12.1186|INFO|A.b|Getting results from: C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack
+2023-08-10 01:04:14.4008|INFO|A.b|Setting up adapter
+2023-08-10 01:04:14.4165|INFO|BStack.VisualStudio.TestAdapter.BStackTestExecutor|NUnit test stated from test explorer
+2023-08-10 01:04:14.4165|INFO|A.b|Invoking browserstack-sdk with args: --skip-build-browserstack "C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\SingleTest.dll" --filter ""(FullyQualifiedName=BrowserStack.SampleTest.SearchBstackDemo)""
+2023-08-10 01:04:46.8140|INFO|A.b|Exec: dotnet browserstack-sdk --skip-build-browserstack "C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\SingleTest.dll" --filter ""(FullyQualifiedName=BrowserStack.SampleTest.SearchBstackDemo)""
+2023-08-10 01:04:46.8140|INFO|A.b|0 : 
+2023-08-10 01:04:16.6182|INFO|browserstack_sdk.Program|Detected Selenium version 4.7.0
+2023-08-10 01:04:16.8056|INFO|browserstack_sdk.Program|Detected dotnet version 7.0.203
+2023-08-10 01:04:18.5520|INFO|browserstack_sdk.Program|Starting local
+2023-08-10 01:04:22.3529|INFO|browserstack_sdk.Program|Local started
+2023-08-10 01:04:35.6754|INFO|browserstack_sdk.Program|
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>echo "running bat file" 
+"running bat file"
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>cd C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack 
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>dotnet test "C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\SingleTest.dll" --filter "(FullyQualifiedName=BrowserStack.SampleTest.SearchBstackDemo)" --no-build  "--logger:trx;LogFileName=C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack\results_dotnet\result_0\NUnit-Browserstack.xml" 
+The following arguments have been ignored : "--no-build"
+Microsoft (R) Test Execution Command Line Tool Version 17.5.0 (x64)
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+Failed to load extensions from file 'C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+Results File: C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack\results_dotnet\result_0\NUnit-Browserstack.xml
+
+Passed!  - Failed:     0, Passed:     1, Skipped:     0, Total:     1, Duration: 11 s - SingleTest.dll (net6.0)
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>echo "completed bat file" 
+"completed bat file"
+
+2023-08-10 01:04:37.6478|INFO|browserstack_sdk.Program|
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>echo "running bat file" 
+"running bat file"
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>cd C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack 
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>dotnet test "C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\SingleTest.dll" --filter "(FullyQualifiedName=BrowserStack.SampleTest.SearchBstackDemo)" --no-build  "--logger:trx;LogFileName=C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack\results_dotnet\result_1\NUnit-Browserstack.xml" 
+The following arguments have been ignored : "--no-build"
+Microsoft (R) Test Execution Command Line Tool Version 17.5.0 (x64)
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+Failed to load extensions from file 'C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+Results File: C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack\results_dotnet\result_1\NUnit-Browserstack.xml
+
+Passed!  - Failed:     0, Passed:     1, Skipped:     0, Total:     1, Duration: 13 s - SingleTest.dll (net6.0)
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>echo "completed bat file" 
+"completed bat file"
+
+2023-08-10 01:04:44.2933|INFO|browserstack_sdk.Program|
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>echo "running bat file" 
+"running bat file"
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>cd C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack 
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>dotnet test "C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\SingleTest.dll" --filter "(FullyQualifiedName=BrowserStack.SampleTest.SearchBstackDemo)" --no-build  "--logger:trx;LogFileName=C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack\results_dotnet\result_2\NUnit-Browserstack.xml" 
+The following arguments have been ignored : "--no-build"
+Microsoft (R) Test Execution Command Line Tool Version 17.5.0 (x64)
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+Failed to load extensions from file 'C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+Results File: C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack\results_dotnet\result_2\NUnit-Browserstack.xml
+
+Passed!  - Failed:     0, Passed:     1, Skipped:     0, Total:     1, Duration: 20 s - SingleTest.dll (net6.0)
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>echo "completed bat file" 
+"completed bat file"
+
+2023-08-10 01:04:44.2933|INFO|browserstack_sdk.Program|Stopping local
+2023-08-10 01:04:46.6408|INFO|browserstack_sdk.utils|View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/8a99572b2e89d19f8699ad963ec033ee75b6acf6
+
+
+2023-08-10 01:04:46.8140|INFO|A.b|Cleaning up adapter
+2023-08-10 01:04:46.8140|INFO|A.b|Getting results from: C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack
+2023-08-10 01:12:08.9198|INFO|A.b|Setting up adapter
+2023-08-10 01:12:08.9372|INFO|BStack.VisualStudio.TestAdapter.BStackTestExecutor|NUnit test stated from test explorer
+2023-08-10 01:12:08.9372|INFO|A.b|Invoking browserstack-sdk with args: --skip-build-browserstack "C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\SingleTest.dll" --filter ""(FullyQualifiedName=BrowserStack.SampleTest.SearchBstackDemo)""
+2023-08-10 01:12:21.1779|INFO|A.b|Exec: dotnet browserstack-sdk --skip-build-browserstack "C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\SingleTest.dll" --filter ""(FullyQualifiedName=BrowserStack.SampleTest.SearchBstackDemo)""
+2023-08-10 01:12:21.1779|INFO|A.b|0 : 
+2023-08-10 01:12:11.0442|INFO|browserstack_sdk.Program|Detected Selenium version 4.7.0
+2023-08-10 01:12:11.2152|INFO|browserstack_sdk.Program|Detected dotnet version 7.0.203
+2023-08-10 01:12:12.9463|INFO|browserstack_sdk.Program|Starting local
+2023-08-10 01:12:16.7483|INFO|browserstack_sdk.Program|Local started
+2023-08-10 01:12:18.6650|INFO|browserstack_sdk.Program|
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>echo "running bat file" 
+"running bat file"
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>cd C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack 
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>dotnet test "C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\SingleTest.dll" --filter "(FullyQualifiedName=BrowserStack.SampleTest.SearchBstackDemo)" --no-build  "--logger:trx;LogFileName=C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack\results_dotnet\result_0\NUnit-Browserstack.xml" 
+The following arguments have been ignored : "--no-build"
+Microsoft (R) Test Execution Command Line Tool Version 17.5.0 (x64)
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+Failed to load extensions from file 'C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+  Failed SearchBstackDemo [21 ms]
+  Error Message:
+   System.NullReferenceException : Object reference not set to an instance of an object.
+TearDown : System.NullReferenceException : Object reference not set to an instance of an object.
+  Stack Trace:
+     at BrowserStack.SampleTest.SearchBstackDemo(SampleTest this)
+--TearDown
+   at BrowserStack.BrowserStackNUnitTest.Cleanup() in C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\BrowserStackNUnitTest.cs:line 32
+
+Results File: C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack\results_dotnet\result_0\NUnit-Browserstack.xml
+
+Failed!  - Failed:     1, Passed:     0, Skipped:     0, Total:     1, Duration: 21 ms - SingleTest.dll (net6.0)
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>echo "completed bat file" 
+"completed bat file"
+
+2023-08-10 01:12:18.6735|INFO|browserstack_sdk.Program|
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>echo "running bat file" 
+"running bat file"
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>cd C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack 
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>dotnet test "C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\SingleTest.dll" --filter "(FullyQualifiedName=BrowserStack.SampleTest.SearchBstackDemo)" --no-build  "--logger:trx;LogFileName=C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack\results_dotnet\result_1\NUnit-Browserstack.xml" 
+The following arguments have been ignored : "--no-build"
+Microsoft (R) Test Execution Command Line Tool Version 17.5.0 (x64)
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+Failed to load extensions from file 'C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+  Failed SearchBstackDemo [15 ms]
+  Error Message:
+   System.NullReferenceException : Object reference not set to an instance of an object.
+TearDown : System.NullReferenceException : Object reference not set to an instance of an object.
+  Stack Trace:
+     at BrowserStack.SampleTest.SearchBstackDemo(SampleTest this)
+--TearDown
+   at BrowserStack.BrowserStackNUnitTest.Cleanup() in C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\BrowserStackNUnitTest.cs:line 32
+
+Results File: C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack\results_dotnet\result_1\NUnit-Browserstack.xml
+
+Failed!  - Failed:     1, Passed:     0, Skipped:     0, Total:     1, Duration: 15 ms - SingleTest.dll (net6.0)
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>echo "completed bat file" 
+"completed bat file"
+
+2023-08-10 01:12:18.6735|INFO|browserstack_sdk.Program|
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>echo "running bat file" 
+"running bat file"
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>cd C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack 
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>dotnet test "C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\SingleTest.dll" --filter "(FullyQualifiedName=BrowserStack.SampleTest.SearchBstackDemo)" --no-build  "--logger:trx;LogFileName=C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack\results_dotnet\result_2\NUnit-Browserstack.xml" 
+The following arguments have been ignored : "--no-build"
+Microsoft (R) Test Execution Command Line Tool Version 17.5.0 (x64)
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+Failed to load extensions from file 'C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\bin\Debug\net6.0\ZZStack.TestAdapter.dll'. Please use /diag for more information.
+  Failed SearchBstackDemo [19 ms]
+  Error Message:
+   System.NullReferenceException : Object reference not set to an instance of an object.
+TearDown : System.NullReferenceException : Object reference not set to an instance of an object.
+  Stack Trace:
+     at BrowserStack.SampleTest.SearchBstackDemo(SampleTest this)
+--TearDown
+   at BrowserStack.BrowserStackNUnitTest.Cleanup() in C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack\BrowserStackNUnitTest.cs:line 32
+
+Results File: C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack\results_dotnet\result_2\NUnit-Browserstack.xml
+
+Failed!  - Failed:     1, Passed:     0, Skipped:     0, Total:     1, Duration: 19 ms - SingleTest.dll (net6.0)
+
+C:\Users\Roopa.Byrichetty\source\repos\nunit-browserstack-sdk\nunit-browserstack-sdk\NUnit-BrowserStack>echo "completed bat file" 
+"completed bat file"
+
+2023-08-10 01:12:18.6735|INFO|browserstack_sdk.Program|Stopping local
+2023-08-10 01:12:21.0200|INFO|browserstack_sdk.utils|View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/07e7133df9b37b31ad4c7f831417a07a1742d878
+
+
+2023-08-10 01:12:21.1779|INFO|A.b|Cleaning up adapter
+2023-08-10 01:12:21.1779|INFO|A.b|Getting results from: C:\Users\Roopa.Byrichetty\AppData\Local\Temp\.browserstack

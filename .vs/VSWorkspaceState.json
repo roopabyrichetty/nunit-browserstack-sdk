@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\.github",
+    "\\.github\\workflows",
+    "\\NUnit-BrowserStack",
+    "\\NUnit-BrowserStack\\.config",
+    "\\NUnit-BrowserStack\\bin",
+    "\\NUnit-BrowserStack\\bin\\Debug",
+    "\\NUnit-BrowserStack\\bin\\Debug\\net6.0"
+  ],
+  "SelectedNode": "\\NUnit-BrowserStack\\bin\\Debug\\net6.0\\SingleTest.dll",
+  "PreviewInSolutionExplorer": false
+}

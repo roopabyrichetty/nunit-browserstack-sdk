@@ -23,7 +23,7 @@ namespace BrowserStack
       DriverOptions capability = new OpenQA.Selenium.Chrome.ChromeOptions();
       capability.BrowserVersion = "latest";
       capability.AddAdditionalOption("bstack:options", capability);
-      driver = new RemoteWebDriver(new Uri("https://www.bentley.com"), capability);
+      //driver = new RemoteWebDriver(new Uri("https://www.bentley.com"), capability);
     }
 
     [TearDown]
